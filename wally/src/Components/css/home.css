@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+  font-family: 'Lato';
+}
+
+.row{
+    width: 100%;
+}
+
+.left{
+    box-shadow: 0px 0 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.logo{
+    display: flex;
+    margin: 20px;
+    font-size: 2rem;
+    align-items: last baseline;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.logoName{
+    font-weight: bolder;
+    color: #000;
+}
+
+.menu,.logout{
+    display: flex;
+    gap: 20px;
+    padding: 5px 30px;
+    align-items: center;
+    margin-bottom: 17px;
+    transition: .5s;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.logout{
+    color: rgba(255, 38, 0, 0.756);
+    font-weight: bold;
+}
+
+.section{
+    color: #c0c0c0;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.menubar{
+    margin-left: 6px;
+    font-size: 1rem;
+    color: #818181;
+    margin-bottom: 4%;
+}
+
+.icon{
+    font-size: 1.5rem;
+}
+
+.menu-item{
+    margin-top: 13px;
+}
+
+.active,.menu:hover{
+    background-color: rgba(95, 95, 249, 0.196);
+    color: #8183F5;
+    border-radius: 5px;
+    height: fit-content !important;
+}
+
+.user{
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    float: right;
+    margin-right: -70px;
+}
+
+
+.profile{
+    width: 50px;
+    height: 50px;
+}
+
+.details>p{
+    margin-bottom: 3px;
+}
+
+.email{
+    color: #818181;
+}
+
+.right{
+    width: 75%;
+    margin-left: 20px;
+}
+
+.overview{
+    position: absolute;
+    top: 12%;
+    /* box-shadow: 0px 0 10px rgba(0, 0, 0, 0.3); */
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.money-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+    box-shadow: 0px 0 15px -5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: fit-content;
+    margin: 0px 10px 5px 0px;
+}
+
+.money-icon{
+    font-size: 30px;
+    background-color: rgba(255, 182, 72, 0.284);
+    color: rgb(255, 149, 0);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.money{
+    font-weight: bold;
+}
+
+.graph{
+    border-radius: 5px;
+}
+
+.Line{
+    padding: 10px;
+    box-shadow: 0px 0 15px -5px rgba(0, 0, 0, 0.1);
+}
+
+.title{
+    margin-top: 5%;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
+
+.transactions{
+    box-shadow: 0px 0 15px -5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+th{
+    padding: 20px;
+    background-color: #77777723;
+    color: #585858;
+}
+
+td{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #77777776;
+}
+
+.add{
+    background-color: #8183F5;
+    color: #fff;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: .5s;
+}
+
+.add:hover{
+    background-color: #8183f580;
+}
+
+.input{
+    padding: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
