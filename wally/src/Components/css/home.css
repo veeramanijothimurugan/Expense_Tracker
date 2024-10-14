@@ -105,6 +105,7 @@
     padding: 10px;
     border-radius: 5px;
     width: 80%;
+    margin-left: 20px;
 }
 
 .money-card{
@@ -155,13 +156,13 @@
     flex-direction: column;
 }
 
-th{
+.thead{
     padding: 20px;
     background-color: #77777723;
     color: #585858;
 }
 
-td{
+.tdata{
     text-align: center;
     font-weight: bold;
     font-size: 15px;
@@ -187,4 +188,17 @@ td{
     display:flex;
     align-items: center;
     justify-content: center;
+}
+
+.income{
+    color: rgb(2, 189, 2);
+}
+
+.expense{
+    color: red !important;
+
+}
+
+.menus{
+    position: fixed;
 }
